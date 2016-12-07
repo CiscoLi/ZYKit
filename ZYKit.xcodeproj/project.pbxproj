@@ -15,6 +15,7 @@
 		0C8BB4EC1DEEBB880080E6BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8BB4EA1DEEBB880080E6BA /* LaunchScreen.storyboard */; };
 		0C8BB4F71DEEBB890080E6BA /* ZYKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4F61DEEBB890080E6BA /* ZYKitTests.m */; };
 		0C8BB5021DEEBB890080E6BA /* ZYKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB5011DEEBB890080E6BA /* ZYKitUITests.m */; };
+		0CD1762F1DF7E388006D99E4 /* NSDictionary+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD1762E1DF7E388006D99E4 /* NSDictionary+Safe.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		0C8BB4FD1DEEBB890080E6BA /* ZYKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZYKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8BB5011DEEBB890080E6BA /* ZYKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZYKitUITests.m; sourceTree = "<group>"; };
 		0C8BB5031DEEBB890080E6BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CD1762D1DF7E388006D99E4 /* NSDictionary+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Safe.h"; sourceTree = "<group>"; };
+		0CD1762E1DF7E388006D99E4 /* NSDictionary+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Safe.m"; sourceTree = "<group>"; };
+		0CD176301DF7E3D3006D99E4 /* ClassSafeCategroyConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ClassSafeCategroyConfig.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 		0C8BB4DB1DEEBB880080E6BA /* ZYKit */ = {
 			isa = PBXGroup;
 			children = (
+				0CD1762B1DF7E305006D99E4 /* Utility */,
 				0C8BB4DF1DEEBB880080E6BA /* AppDelegate.h */,
 				0C8BB4E01DEEBB880080E6BA /* AppDelegate.m */,
 				0C8BB4E21DEEBB880080E6BA /* ViewController.h */,
@@ -138,6 +143,24 @@
 				0C8BB5031DEEBB890080E6BA /* Info.plist */,
 			);
 			path = ZYKitUITests;
+			sourceTree = "<group>";
+		};
+		0CD1762B1DF7E305006D99E4 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				0CD176301DF7E3D3006D99E4 /* ClassSafeCategroyConfig.h */,
+				0CD1762C1DF7E375006D99E4 /* Dictionary */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		0CD1762C1DF7E375006D99E4 /* Dictionary */ = {
+			isa = PBXGroup;
+			children = (
+				0CD1762D1DF7E388006D99E4 /* NSDictionary+Safe.h */,
+				0CD1762E1DF7E388006D99E4 /* NSDictionary+Safe.m */,
+			);
+			path = Dictionary;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -279,6 +302,7 @@
 				0C8BB4E41DEEBB880080E6BA /* ViewController.m in Sources */,
 				0C8BB4E11DEEBB880080E6BA /* AppDelegate.m in Sources */,
 				0C8BB4DE1DEEBB880080E6BA /* main.m in Sources */,
+				0CD1762F1DF7E388006D99E4 /* NSDictionary+Safe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +540,7 @@
 				0C8BB5081DEEBB890080E6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C8BB5091DEEBB890080E6BA /* Build configuration list for PBXNativeTarget "ZYKitTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +549,7 @@
 				0C8BB50B1DEEBB890080E6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0C8BB50C1DEEBB890080E6BA /* Build configuration list for PBXNativeTarget "ZYKitUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +558,7 @@
 				0C8BB50E1DEEBB890080E6BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
