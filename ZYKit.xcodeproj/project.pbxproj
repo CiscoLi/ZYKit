@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0C1672AF1DFA733D006D0D7B /* NSString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1672AE1DFA733D006D0D7B /* NSString+Safe.m */; };
+		0C1672B31DFA748B006D0D7B /* UIColor+Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1672B21DFA748B006D0D7B /* UIColor+Utility.m */; };
 		0C8BB4DE1DEEBB880080E6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4DD1DEEBB880080E6BA /* main.m */; };
 		0C8BB4E11DEEBB880080E6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4E01DEEBB880080E6BA /* AppDelegate.m */; };
 		0C8BB4E41DEEBB880080E6BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4E31DEEBB880080E6BA /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		0C1672AD1DFA733D006D0D7B /* NSString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Safe.h"; sourceTree = "<group>"; };
 		0C1672AE1DFA733D006D0D7B /* NSString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Safe.m"; sourceTree = "<group>"; };
+		0C1672B11DFA748B006D0D7B /* UIColor+Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Utility.h"; sourceTree = "<group>"; };
+		0C1672B21DFA748B006D0D7B /* UIColor+Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Utility.m"; sourceTree = "<group>"; };
 		0C8BB4D91DEEBB880080E6BA /* ZYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8BB4DD1DEEBB880080E6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C8BB4DF1DEEBB880080E6BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +88,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C1672B01DFA7472006D0D7B /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				0C1672B11DFA748B006D0D7B /* UIColor+Utility.h */,
+				0C1672B21DFA748B006D0D7B /* UIColor+Utility.m */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
 		0C8BB4D01DEEBB880080E6BA = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +163,7 @@
 		0CD1762B1DF7E305006D99E4 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				0C1672B01DFA7472006D0D7B /* Interface */,
 				0CD176301DF7E3D3006D99E4 /* ClassSafeCategroyConfig.h */,
 				0CD1762C1DF7E375006D99E4 /* Dictionary */,
 			);
@@ -308,6 +321,7 @@
 				0C8BB4E11DEEBB880080E6BA /* AppDelegate.m in Sources */,
 				0C1672AF1DFA733D006D0D7B /* NSString+Safe.m in Sources */,
 				0C8BB4DE1DEEBB880080E6BA /* main.m in Sources */,
+				0C1672B31DFA748B006D0D7B /* UIColor+Utility.m in Sources */,
 				0CD1762F1DF7E388006D99E4 /* NSDictionary+Safe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
