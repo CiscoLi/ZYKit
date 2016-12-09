@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C1672AF1DFA733D006D0D7B /* NSString+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C1672AE1DFA733D006D0D7B /* NSString+Safe.m */; };
 		0C8BB4DE1DEEBB880080E6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4DD1DEEBB880080E6BA /* main.m */; };
 		0C8BB4E11DEEBB880080E6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4E01DEEBB880080E6BA /* AppDelegate.m */; };
 		0C8BB4E41DEEBB880080E6BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4E31DEEBB880080E6BA /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1672AD1DFA733D006D0D7B /* NSString+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Safe.h"; sourceTree = "<group>"; };
+		0C1672AE1DFA733D006D0D7B /* NSString+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Safe.m"; sourceTree = "<group>"; };
 		0C8BB4D91DEEBB880080E6BA /* ZYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8BB4DD1DEEBB880080E6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C8BB4DF1DEEBB880080E6BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 			children = (
 				0CD1762D1DF7E388006D99E4 /* NSDictionary+Safe.h */,
 				0CD1762E1DF7E388006D99E4 /* NSDictionary+Safe.m */,
+				0C1672AD1DFA733D006D0D7B /* NSString+Safe.h */,
+				0C1672AE1DFA733D006D0D7B /* NSString+Safe.m */,
 			);
 			path = Dictionary;
 			sourceTree = "<group>";
@@ -301,6 +306,7 @@
 			files = (
 				0C8BB4E41DEEBB880080E6BA /* ViewController.m in Sources */,
 				0C8BB4E11DEEBB880080E6BA /* AppDelegate.m in Sources */,
+				0C1672AF1DFA733D006D0D7B /* NSString+Safe.m in Sources */,
 				0C8BB4DE1DEEBB880080E6BA /* main.m in Sources */,
 				0CD1762F1DF7E388006D99E4 /* NSDictionary+Safe.m in Sources */,
 			);
