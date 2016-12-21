@@ -28,6 +28,7 @@
 		0C5264CB1E0264C20054ACFC /* PageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C5264CA1E0264C20054ACFC /* PageView.m */; };
 		0C59AEE71E07B32C00A9D43F /* TabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59AEE61E07B32C00A9D43F /* TabBar.m */; };
 		0C59AEEA1E07B38A00A9D43F /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59AEE91E07B38A00A9D43F /* TabBarItem.m */; };
+		0C59AEED1E0A525800A9D43F /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59AEEC1E0A525800A9D43F /* LineView.m */; };
 		0C74E6DA1DFE693100E67683 /* NSNumber+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74E6D91DFE693100E67683 /* NSNumber+Safe.m */; };
 		0C8BB4DE1DEEBB880080E6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4DD1DEEBB880080E6BA /* main.m */; };
 		0C8BB4E11DEEBB880080E6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4E01DEEBB880080E6BA /* AppDelegate.m */; };
@@ -101,6 +102,8 @@
 		0C59AEE61E07B32C00A9D43F /* TabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBar.m; sourceTree = "<group>"; };
 		0C59AEE81E07B38A00A9D43F /* TabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarItem.h; sourceTree = "<group>"; };
 		0C59AEE91E07B38A00A9D43F /* TabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarItem.m; sourceTree = "<group>"; };
+		0C59AEEB1E0A525800A9D43F /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineView.h; sourceTree = "<group>"; };
+		0C59AEEC1E0A525800A9D43F /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
 		0C74E6D81DFE693100E67683 /* NSNumber+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Safe.h"; sourceTree = "<group>"; };
 		0C74E6D91DFE693100E67683 /* NSNumber+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Safe.m"; sourceTree = "<group>"; };
 		0C8BB4D91DEEBB880080E6BA /* ZYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +178,8 @@
 				0C59AEE61E07B32C00A9D43F /* TabBar.m */,
 				0C59AEE81E07B38A00A9D43F /* TabBarItem.h */,
 				0C59AEE91E07B38A00A9D43F /* TabBarItem.m */,
+				0C59AEEB1E0A525800A9D43F /* LineView.h */,
+				0C59AEEC1E0A525800A9D43F /* LineView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -462,6 +467,7 @@
 				0C59AEEA1E07B38A00A9D43F /* TabBarItem.m in Sources */,
 				0C19275F1DFFDBF1005B49BA /* MKAnnotationView+WebCache.m in Sources */,
 				0C19276B1DFFDBF1005B49BA /* UIImage+WebP.m in Sources */,
+				0C59AEED1E0A525800A9D43F /* LineView.m in Sources */,
 				0C8BB4E11DEEBB880080E6BA /* AppDelegate.m in Sources */,
 				0C1927651DFFDBF1005B49BA /* SDWebImageDownloaderOperation.m in Sources */,
 				0C1927631DFFDBF1005B49BA /* SDWebImageDecoder.m in Sources */,
