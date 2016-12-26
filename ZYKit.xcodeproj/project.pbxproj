@@ -30,6 +30,7 @@
 		0C59AEEA1E07B38A00A9D43F /* TabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59AEE91E07B38A00A9D43F /* TabBarItem.m */; };
 		0C59AEED1E0A525800A9D43F /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59AEEC1E0A525800A9D43F /* LineView.m */; };
 		0C74E6DA1DFE693100E67683 /* NSNumber+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74E6D91DFE693100E67683 /* NSNumber+Safe.m */; };
+		0C7C91791E111AF20038E6F6 /* CustomMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C91781E111AF20038E6F6 /* CustomMenu.m */; };
 		0C8BB4DE1DEEBB880080E6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4DD1DEEBB880080E6BA /* main.m */; };
 		0C8BB4E11DEEBB880080E6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4E01DEEBB880080E6BA /* AppDelegate.m */; };
 		0C8BB4E41DEEBB880080E6BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4E31DEEBB880080E6BA /* ViewController.m */; };
@@ -106,6 +107,8 @@
 		0C59AEEC1E0A525800A9D43F /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineView.m; sourceTree = "<group>"; };
 		0C74E6D81DFE693100E67683 /* NSNumber+Safe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Safe.h"; sourceTree = "<group>"; };
 		0C74E6D91DFE693100E67683 /* NSNumber+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Safe.m"; sourceTree = "<group>"; };
+		0C7C91771E111AF20038E6F6 /* CustomMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMenu.h; sourceTree = "<group>"; };
+		0C7C91781E111AF20038E6F6 /* CustomMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMenu.m; sourceTree = "<group>"; };
 		0C8BB4D91DEEBB880080E6BA /* ZYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8BB4DD1DEEBB880080E6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C8BB4DF1DEEBB880080E6BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -180,6 +183,8 @@
 				0C59AEE91E07B38A00A9D43F /* TabBarItem.m */,
 				0C59AEEB1E0A525800A9D43F /* LineView.h */,
 				0C59AEEC1E0A525800A9D43F /* LineView.m */,
+				0C7C91771E111AF20038E6F6 /* CustomMenu.h */,
+				0C7C91781E111AF20038E6F6 /* CustomMenu.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -481,6 +486,7 @@
 				0C59AEE71E07B32C00A9D43F /* TabBar.m in Sources */,
 				0C1672B31DFA748B006D0D7B /* UIColor+Utility.m in Sources */,
 				0C1927661DFFDBF1005B49BA /* SDWebImageManager.m in Sources */,
+				0C7C91791E111AF20038E6F6 /* CustomMenu.m in Sources */,
 				0CD1762F1DF7E388006D99E4 /* NSDictionary+Safe.m in Sources */,
 				0C1927611DFFDBF1005B49BA /* SDImageCache.m in Sources */,
 			);
