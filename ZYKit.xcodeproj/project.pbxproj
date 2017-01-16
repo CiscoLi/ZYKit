@@ -31,6 +31,8 @@
 		0C59AEED1E0A525800A9D43F /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C59AEEC1E0A525800A9D43F /* LineView.m */; };
 		0C74E6DA1DFE693100E67683 /* NSNumber+Safe.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C74E6D91DFE693100E67683 /* NSNumber+Safe.m */; };
 		0C7C91791E111AF20038E6F6 /* CustomMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C91781E111AF20038E6F6 /* CustomMenu.m */; };
+		0C7C917D1E2CD0F90038E6F6 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C917C1E2CD0F90038E6F6 /* CircleView.m */; };
+		0C7C91801E2CD11D0038E6F6 /* CircleLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C7C917F1E2CD11D0038E6F6 /* CircleLayer.m */; };
 		0C8BB4DE1DEEBB880080E6BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4DD1DEEBB880080E6BA /* main.m */; };
 		0C8BB4E11DEEBB880080E6BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4E01DEEBB880080E6BA /* AppDelegate.m */; };
 		0C8BB4E41DEEBB880080E6BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8BB4E31DEEBB880080E6BA /* ViewController.m */; };
@@ -109,6 +111,10 @@
 		0C74E6D91DFE693100E67683 /* NSNumber+Safe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Safe.m"; sourceTree = "<group>"; };
 		0C7C91771E111AF20038E6F6 /* CustomMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomMenu.h; sourceTree = "<group>"; };
 		0C7C91781E111AF20038E6F6 /* CustomMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomMenu.m; sourceTree = "<group>"; };
+		0C7C917B1E2CD0F90038E6F6 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		0C7C917C1E2CD0F90038E6F6 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		0C7C917E1E2CD11D0038E6F6 /* CircleLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleLayer.h; sourceTree = "<group>"; };
+		0C7C917F1E2CD11D0038E6F6 /* CircleLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleLayer.m; sourceTree = "<group>"; };
 		0C8BB4D91DEEBB880080E6BA /* ZYKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8BB4DD1DEEBB880080E6BA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C8BB4DF1DEEBB880080E6BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -175,6 +181,7 @@
 		0C19273C1DFFDB70005B49BA /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0C7C917A1E2CD0DD0038E6F6 /* CircleView */,
 				0C5264C91E0264C20054ACFC /* PageView.h */,
 				0C5264CA1E0264C20054ACFC /* PageView.m */,
 				0C59AEE51E07B32C00A9D43F /* TabBar.h */,
@@ -236,6 +243,17 @@
 				0C74E6D91DFE693100E67683 /* NSNumber+Safe.m */,
 			);
 			path = Number;
+			sourceTree = "<group>";
+		};
+		0C7C917A1E2CD0DD0038E6F6 /* CircleView */ = {
+			isa = PBXGroup;
+			children = (
+				0C7C917B1E2CD0F90038E6F6 /* CircleView.h */,
+				0C7C917C1E2CD0F90038E6F6 /* CircleView.m */,
+				0C7C917E1E2CD11D0038E6F6 /* CircleLayer.h */,
+				0C7C917F1E2CD11D0038E6F6 /* CircleLayer.m */,
+			);
+			path = CircleView;
 			sourceTree = "<group>";
 		};
 		0C8BB4D01DEEBB880080E6BA = {
@@ -482,10 +500,12 @@
 				0C1927601DFFDBF1005B49BA /* NSData+ImageContentType.m in Sources */,
 				0C1927641DFFDBF1005B49BA /* SDWebImageDownloader.m in Sources */,
 				0C8BB4DE1DEEBB880080E6BA /* main.m in Sources */,
+				0C7C91801E2CD11D0038E6F6 /* CircleLayer.m in Sources */,
 				0C74E6DA1DFE693100E67683 /* NSNumber+Safe.m in Sources */,
 				0C59AEE71E07B32C00A9D43F /* TabBar.m in Sources */,
 				0C1672B31DFA748B006D0D7B /* UIColor+Utility.m in Sources */,
 				0C1927661DFFDBF1005B49BA /* SDWebImageManager.m in Sources */,
+				0C7C917D1E2CD0F90038E6F6 /* CircleView.m in Sources */,
 				0C7C91791E111AF20038E6F6 /* CustomMenu.m in Sources */,
 				0CD1762F1DF7E388006D99E4 /* NSDictionary+Safe.m in Sources */,
 				0C1927611DFFDBF1005B49BA /* SDImageCache.m in Sources */,
