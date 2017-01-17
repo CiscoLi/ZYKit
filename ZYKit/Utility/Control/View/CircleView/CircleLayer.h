@@ -10,4 +10,7 @@
 
 @interface CircleLayer : CALayer
 
+//拉伸进度条(由其他控制器传进)
+@property (nonatomic,assign) CGFloat progress;
+
 @end
